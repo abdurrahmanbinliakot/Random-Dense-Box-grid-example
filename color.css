@@ -1,0 +1,14 @@
+:root{
+    --color_1:#4A89DC;
+    --color_2:#D770AD;
+    --color_3:#DA4453;
+    --color_4:#37BC9B;
+    --color_5:#8CC152;
+    --color_6:#FCBB42;
+    --color_7:#37BC9B;
+ }
+
+ .normal{background-color: var(--color_3);}
+ .harizantal{background-color: var(--color_2);}
+ .vertical{background-color: var(--color_5);}
+ .big{background-color: var(--color_6);}

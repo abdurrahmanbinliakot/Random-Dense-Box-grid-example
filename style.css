@@ -1,0 +1,36 @@
+ 
+@import"color.css";
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+ .container{
+   height: 100%;
+   display: grid;
+   gap: 5px;
+   grid-template-columns: repeat(auto-fit,300px);
+   grid-auto-flow: dense;
+   justify-content: center;
+
+ }
+
+
+ .harizantal{
+  /* grid-row: auto/span 2; */
+  grid-row: span 2;
+
+ }
+
+ .vertical{
+  /* grid-column: auto/span 2; */
+  grid-column: span 2;
+
+ }
+.big{
+  /* grid-row: auto/span 2; */
+  grid-row: span 2;
+  grid-column: span 2;
+}
